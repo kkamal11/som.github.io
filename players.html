@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Odia&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: bisque;
+            font-family: sans-serif;
+            font-weight: 700;
+        }
+        form{
+            text-align: center;
+            padding-top: 200px;
+        }
+        button{
+            background-color: green;
+            padding: 8px 15px 8px 15px;
+            color: white;
+        }
+        button:hover{
+            cursor: pointer;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <form action="/" method="post" id="form1">
+        <label for="p1">Enter the name of first player:</label>
+        <input type="text" id="p1" name="player1"><br><br>
+        <label for="p2">Enter the name of second player:</label>
+        <input type="text" id="p2" name="player2"><br><br>
+        <button type="submit" form="form1" value="Submit">Submit!</button>
+    </form>
+</body>
+</html>
